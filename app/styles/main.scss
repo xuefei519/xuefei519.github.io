@@ -13,8 +13,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2em;
+  padding-bottom: 5em;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -25,9 +25,14 @@ body {
   padding-right: 15px;
 }
 
+#greeting {
+  font-family: Comic Sans;
+}
+
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
+
 
   /* Make the masthead heading the same height as the navigation */
   h3 {
@@ -51,8 +56,12 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  height:33em;
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1em solid #e5e5e5;
+  background-size: cover;
+  background-image: url("p.png");
+
   .btn {
     font-size: 21px;
     padding: 14px 24px;
@@ -83,11 +92,13 @@ body {
 
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 3em;
+
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
+    border-top: 1em;
     border-bottom: 0;
   }
 }
