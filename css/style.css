@@ -104,6 +104,7 @@ html, body {
 
 nav{
 	height: 70px!important;
+  left:0;
 }
 
 header .container-fluid {
