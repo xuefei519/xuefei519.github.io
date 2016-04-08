@@ -160,6 +160,7 @@ header .container-fluid {
   display: block;
   left: 110%;
   margin-bottom: 15px;
+  margin-right: 10px;
   opacity: 0;
   padding: 20px;
   pointer-events: none;
