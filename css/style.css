@@ -240,6 +240,7 @@ header .container-fluid {
       -ms-transform: translateY(0px);
        -o-transform: translateY(0px);
           transform: translateY(0px);
+  margin-right: auto;
 }
 
 
