@@ -19,4 +19,6 @@ $('body').scrollspy({target: '.navbar-custom',offset:80})
  $('[data-toggle="tooltip"]').tooltip();
 
 
- 
+ $(document.body).click( function() {
+    document.getElementById('xuefei').removeClass('hover');
+});
