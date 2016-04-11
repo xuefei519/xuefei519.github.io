@@ -19,10 +19,10 @@ $('body').scrollspy({target: '.navbar-custom',offset:80})
  $('[data-toggle="tooltip"]').tooltip();
 
 
- $('body').on("click", function (ev) {
+ $(document).on("click", function (ev) {
    if (ev.target.id === "xuefei") {
        // Don't remove class.
    } else {
-       $('#xuefei').removeClass("hover");
+       document.getElementById('xuefei').removeClass("hover");
    }
 });
