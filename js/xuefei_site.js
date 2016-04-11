@@ -16,4 +16,12 @@ $('.navbar-collapse ul li a').click(function() {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({target: '.navbar-custom',offset:80})
 
- $('[data-toggle="tooltip"]').tooltip(); 
+ $('[data-toggle="tooltip"]').tooltip();
+
+ $(document).click(function(e){
+      if(e.target.id != 'xuefei')
+      {
+          document.getElementById('xuefei').removeClass('hover');
+      }
+
+   })
