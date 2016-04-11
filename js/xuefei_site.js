@@ -20,10 +20,9 @@ $('body').scrollspy({target: '.navbar-custom',offset:80})
 
 
  $('body').on("click", function (ev) {
-     if( $(ev.target).hasClass('hover') ) {
-         //you clicked on .dropdown element, do something
-     }
-     else {
-         document.getElementById('xuefei').removeClass('hover');
-     }
- });
+   if (ev.target.id === "xuefei") {
+       // Don't remove class.
+   } else {
+       $('#xuefei').removeClass("hover");
+   }
+});
