@@ -20,7 +20,7 @@ $('body').scrollspy({target: '.navbar-custom',offset:80})
 
 
  $('body').on("click", function (ev) {
-     if( $(ev.target).hasClass('.hover') ) {
+     if( $(ev.target).hasClass('hover') ) {
          //you clicked on .dropdown element, do something
      }
      else {
