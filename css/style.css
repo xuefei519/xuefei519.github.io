@@ -162,10 +162,10 @@ header .container-fluid {
   margin-bottom: 15px;
   margin-right: 10px;
   opacity: 0;
-  padding: 20px;
+  padding:15px 10px 15px 15px;
   pointer-events: none;
   position: absolute;
-  width: 200px;
+  width: 180px;
   -webkit-transform: translateY(10px);
      -moz-transform: translateY(10px);
       -ms-transform: translateY(10px);
