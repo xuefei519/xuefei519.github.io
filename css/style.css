@@ -243,6 +243,16 @@ header .container-fluid {
           transform: translateY(0px);
 }
 
+#xuefei .hover .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+     -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+       -o-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
 
 
 #about .container-fluid {
