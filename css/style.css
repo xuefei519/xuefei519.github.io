@@ -107,6 +107,9 @@ nav{
   left:0;
 }
 
+
+
+
 header .container-fluid {
   padding-top: 90px;
   padding-bottom: 150px;
@@ -114,11 +117,15 @@ header .container-fluid {
 	background-color: #72B0B4;
 	text-align: center;
 	margin: 0;
-	font-size: 5.625em;
+	font-size: 5.8em;
 	font-family: 'lobster', sans-serif;
 	min-height: 100%;
+  width: auto;
 	height:100%;
 	text-shadow: 2px 2px 4px #000000;
+
+  padding-left: 50px;
+  padding-right: 10px;
 }
 
 
@@ -187,7 +194,7 @@ header .container-fluid {
 #content{
   margin-top: 20px;
   font-family: Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 40px;
+  font-size: 2.6em;
 
   text-align: center;
 }
@@ -253,6 +260,43 @@ header .container-fluid {
           transform: translateY(0px);
 }
 
+@media(max-width:768px) {
+  header .container-fluid{
+    padding-top: 170px;
+    padding-bottom: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 4.3em;
+  }
+   #xuefei {
+     font-size: 1.2em;
+     left:70px;
+     top:35px;
+   }
+
+   #xuefei .tooltip {
+     left:0;
+     top:-120%;
+     bottom: 80%;
+   }
+
+   /*triangle*/
+   #xuefei .tooltip:after {
+     bottom:-20px;
+     left:80px;
+     border-left: solid transparent 10px;
+     border-top: solid #E3E3D8 10px;
+     border-right: solid transparent 10px;
+}
+  #content{
+    margin-top: 8px;
+  }
+
+  #contact p{
+    margin-left: 10px;
+  }
+
+}
 
 
 #about .container-fluid {
@@ -343,6 +387,13 @@ header .container-fluid {
 	padding-top: 0px;
 	margin-top: -20px;
 	font-family: 'Titillium Web', sans-serif;
+}
+
+
+@media(max-width:768px) {
+  #about .container-fluid p{
+    font-size: 5em;
+  }
 }
 
 #about #more{
@@ -528,6 +579,25 @@ form {
   padding-right: 100px;
 }
 
+@media(max-width:768px) {
+  .control-group .controls input{
+    width:auto;
+    margin: auto;
+  }
+
+  textarea{
+    width:auto;
+    margin: auto;
+  }
+
+  .control-group .controls span ul li{
+    margin-left: -35px;
+    margin-right: -35px;
+    padding: 0;
+  }
+}
+
+
 #works .container-fluid  p{
 	font-size: 80px;
 	font-family: 'lobster', sans-serif;
@@ -568,6 +638,12 @@ form {
   color: red;
 }
 
+@media(max-width:768px){
+  #works .container-fluid  p{
+    text-align:center;
+    font-size: 4em;
+  }
+}
 
 #contact .container-fluid {
   padding-top: 30px;
