@@ -443,11 +443,13 @@ width: 60px;
   width: 300px;
   display: block;
   border: 1px solid #999;
-  height: 25px;
+  height:35px;
+  line-height: 35px;
   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 	padding-right: 30px;
+
 }
 
 textarea{
@@ -460,9 +462,7 @@ textarea{
 	padding-right: 30px;
 }
 
-.control-group .controls input{
-  height:30px;
-}
+
 
 form {
 	text-align: left;
