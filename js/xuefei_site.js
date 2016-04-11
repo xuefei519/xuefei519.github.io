@@ -18,10 +18,12 @@ $('body').scrollspy({target: '.navbar-custom',offset:80})
 
  $('[data-toggle="tooltip"]').tooltip();
 
- $(document).click(function(e){
-      if(e.target.id != 'xuefei')
-      {
-          document.getElementById('xuefei').removeClass('hover');
-      }
 
-   })
+ $('body').on("click", function (ev) {
+     if( $(ev.target).hasClass('.hover') ) {
+         //you clicked on .dropdown element, do something
+     }
+     else {
+         document.getElementById('xuefei').removeClass('hover');
+     }
+ });
