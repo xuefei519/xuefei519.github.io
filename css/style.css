@@ -674,8 +674,10 @@ form {
 #works .work-img .work-title{
   font-family: 'Titillium Web', sans-serif;
   font-size: 25px;
-  margin: auto;
+
   padding-top: 55px;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 #works .work-link{
@@ -723,7 +725,7 @@ form {
   #works .container-fluid p{
 
     font-size: 4em;
-    
+
     text-align: center;
     }
 
@@ -745,6 +747,7 @@ form {
     #works .work-img .work-title{
       position: relative;
       font-size: 25px;
+      white-space: normal;
     }
 
 
