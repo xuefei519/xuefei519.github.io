@@ -837,3 +837,20 @@ body .work-modal{
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.5em;
 }
+@media(max-width:768px){
+  body .work-modal{
+    width:90%;
+    margin-left: 5%;
+    }
+
+  .modal .modal-dialog .modal-content .modal-header .modal-title{
+    font-size: 1.5em;
+    }
+  .modal .modal-dialog .modal-content .modal-body{
+    padding-left: 20px;
+    padding-right:20px;
+    font-size: 1.2em;
+  }
+
+
+}
