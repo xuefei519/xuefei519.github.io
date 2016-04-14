@@ -666,10 +666,12 @@ form {
   background-color: #E3E3D8;
   color:#14435D;
 
+  text-align: center;
+
 
 }
 
-#works .work-img p{
+#works .work-img .work-title{
   font-family: 'Titillium Web', sans-serif;
   font-size: 25px;
   margin: auto;
@@ -692,7 +694,8 @@ form {
 
 }
 
-#works .work-img p{
+#works .work-img .work-title{
+
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
@@ -700,7 +703,7 @@ form {
     transition: 0.5s;
 }
 
-#works .work-img:hover p{
+#works .work-img:hover .work-title{
     -webkit-transform: scale(1.2,1.2);
     -moz-transform: scale(1.2,1.2);
     -o-transform: scale(1.2,1.2);
@@ -713,34 +716,35 @@ form {
 
 @media(max-width:768px){
   #work .container-fluid{
-    padding-left:auto;
-    padding-right: auto;
-    margin-left: auto;
-    margin-right: auto;
+
     text-align: center;
   }
 
   #works .container-fluid p{
-    margin-left: 0;
+
     font-size: 4em;
-    vertical-align: middle;
-    display: table-cell;
+    
     text-align: center;
     }
 
     #works .work-link{
-      margin-left: 0;
-      margin-right: 0;
+
       margin-bottom: 15px;
       margin-top: 15px;
 
       text-align: center;
       position: relative;
-
     }
-    #works .work-img p{
-      font-size: 25px;
+
+    #works .work-img{
       text-align: center;
+      display:block;
+    }
+
+
+    #works .work-img .work-title{
+      position: relative;
+      font-size: 25px;
     }
 
 
