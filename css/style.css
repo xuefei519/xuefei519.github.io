@@ -666,13 +666,14 @@ form {
   background-color: #E3E3D8;
   color:#14435D;
 
+
+}
+
+#works .work-img p{
   font-family: 'Titillium Web', sans-serif;
   font-size: 25px;
-
   margin: auto;
-
   padding-top: 55px;
-
 }
 
 #works .work-link{
@@ -691,8 +692,23 @@ form {
 
 }
 
-#works .work-img:hover{
-  color: red;
+#works .work-img p{
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#works .work-img:hover p{
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+    font-weight: bold;
+    color:  #E3E3D8;
+    text-shadow: -1px 1px 5px #270A2B, 1px -1px 5px #270A2B;
 }
 
 @media(max-width:768px){
@@ -722,7 +738,7 @@ form {
       position: relative;
 
     }
-    #works .work-img{
+    #works .work-img p{
       font-size: 25px;
       text-align: center;
     }
@@ -844,7 +860,7 @@ body .work-modal{
     }
 
   .modal .modal-dialog .modal-content .modal-header .modal-title{
-    font-size: 1.5em;
+    font-size: 2em;
     }
   .modal .modal-dialog .modal-content .modal-body{
     padding-left: 20px;
