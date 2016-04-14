@@ -854,12 +854,18 @@ body .work-modal{
   font-size: 35px;
   font-family: 'lobster', sans-serif;
 }
+
+.modal .modal-dialog .modal-content .modal-header{
+  padding-bottom: 0;
+}
 .modal .modal-dialog .modal-content .modal-body{
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 0;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.5em;
 }
+
 @media(max-width:768px){
   body .work-modal{
     width:90%;
