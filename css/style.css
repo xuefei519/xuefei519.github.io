@@ -892,5 +892,86 @@ body .work-modal{
     font-size: 1.2em;
   }
 
+}
+
+
+#contact #msg:first-child  {
+    border-top: 1px solid #14435D;
+}
+
+#contact .control-group .controls {
+  border-bottom: 1px solid #14435D;
+}
+
+#contact #msg input,
+#contact #msg textarea{
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 1.3em;
+  background: 0 0;
+  box-shadow: none!important;
+  resize: none;
+  width:100%;
+}
+
+#contact #msg textarea:focus,
+#contact #msg input:focus{
+    outline: none;
+}
+
+#contact #msg .control-group .controls{
+  position:relative;
+  padding-top: 20px;
+}
+
+label{
+
+   position: absolute;
+   left:0;
+   top:0;
+
+   font-size: 0.8em;
+   opacity: 0;
+
+   -webkit-transition: all ease .5s;
+   -moz-transition: all ease .5s;
+   transition: all ease .5s;
+
+}
+
+input:valid~label {
+    opacity: 1;
+}
+
+textarea:valid~label {
+    opacity: 1;
+}
+#contact #msg #msg_resumeRequest{
+  display: inline-block;
+  margin-right: 10px;
+  width: 15px;
+}
+
+#contact #msg .msg_footer{
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+@media(max-width:768px){
+  #contact #msg .control-group .controls input{
+    height:45px;
+  }
+ #msg_success{
+   padding: 0;
+   font-size: 0.8em;
+  }
 
 }
