@@ -1019,7 +1019,7 @@ textarea:valid~label {
   transition: 0.5s;
 }
 
-#survey:hover #rate_me{
+#survey:not(#close_rate):hover #rate_me{
   color: #270A2B;
 
   -webkit-transform: scale(1.5,1.5);
