@@ -998,6 +998,7 @@ textarea:valid~label {
 
 #survey span{
   font-size: 1.5em;
+  z-index: 1;
 }
 
 #opinion{
