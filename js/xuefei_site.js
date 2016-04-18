@@ -18,4 +18,6 @@ $('body').scrollspy({target: '.navbar-custom',offset:80})
 
  $('[data-toggle="tooltip"]').tooltip();
 
- 
+ $("#rate").on('DOMNodeRemoved', function(e) {
+    document.getElementById("footer").style.padding='10px 0 10px 0';
+});

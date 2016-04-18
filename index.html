@@ -29,7 +29,7 @@
 
 </head>
 
-  <body id="page-top" >
+  <body id="page-top">
 
       <nav class="navbar navbar-custom navbar-fixed-top">
         <div class="container-fluid">
@@ -333,7 +333,7 @@
           </div>
           </section>
 
-          <footer class="text-center">
+          <footer class="text-center" id='footer'>
             <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-4 col-xs-2">
@@ -426,6 +426,35 @@
               </div>
           </div>
           </div>
+
+        <div id="rate">
+          <a id="survey" type="button"  class="btn btn-default" href="#" data-target="#rateModal" class="work-link" data-toggle="modal" data-backdrop="static">
+            <span onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
+            <p id='opinion'>
+              Your opinion matters!
+            </p>
+            <p id='rate_me'>
+              Rate me!
+              </p>
+          </a>
+        </div>
+
+        <div class="modal fade" id="rateModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+          <div class="modal-dialog ">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" id="close" class="close" data-dismiss="modal" >&times;</button>
+                <p class="modal-title">What do you think of my site?</p>
+                <hr class="hr-style2">
+              </div>
+              <div class="modal-body">
+                content to be added
+              </div>
+              </div class="modal-footer">
+              </div>
+            </div>
+        </div>
+        </div>
 
 
 
