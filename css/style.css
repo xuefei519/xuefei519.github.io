@@ -345,7 +345,7 @@ header .container-fluid {
 		}
 
 #about #montreal{
-	width:25px;
+	width:2vw;
 }
 
 
@@ -423,12 +423,16 @@ header .container-fluid {
 	font-family: 'Titillium Web', sans-serif;
 }
 
+#about .container-fluid .getMore{
+  padding-top: 2vw;
+}
+
 #about .container-fluid .getMore p{
-  font-size: 30px;
+  font-size: 2.5vw;
 }
 
 #about #position{
-  font-size: 2.8vw;
+  font-size: 2.5vw;
 }
 
 #about #intro .dashed li{
