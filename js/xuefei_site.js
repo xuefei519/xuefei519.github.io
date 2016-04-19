@@ -21,3 +21,13 @@ $('body').scrollspy({target: '.navbar-custom',offset:80})
  $("#rate").on('DOMNodeRemoved', function(e) {
     document.getElementById("footer").style.padding='10px 0 10px 0';
 });
+
+var delay=800; //0.8s
+setTimeout(function() {
+  $('#line').append('<style>#line:before{opacity: 1;}</style>');
+}, delay);
+
+var delay=1000; //1 second
+setTimeout(function() {
+  $('#xuefei').append('<style>#xuefei{opacity: 1;}</style>');
+}, delay);
