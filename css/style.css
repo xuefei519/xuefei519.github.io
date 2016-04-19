@@ -409,7 +409,6 @@ header .container-fluid {
 
 
 #about .skills ul li{
-	margin-left: 150px;
 	padding-top: 5px;
 	text-align: left;
 }
@@ -471,7 +470,6 @@ header .container-fluid {
 
   #about .skills ul li{
     font-size: 3.5em;
-    margin-left: 7em;
   }
 
   #about #intro .dashed li{
