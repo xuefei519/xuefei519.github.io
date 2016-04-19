@@ -345,7 +345,7 @@ header .container-fluid {
 		}
 
 #about #montreal{
-	width:2vw;
+	width:20px;
 }
 
 
@@ -378,7 +378,7 @@ header .container-fluid {
 
 #about #intro ul li, #about .interest {
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 2vw;
+	font-size: 25px;
 	list-style-type: none;
 	padding-top:10px;
 }
@@ -409,14 +409,14 @@ header .container-fluid {
 
 
 #about .skills ul li{
-	margin-left: 12vw;
+	margin-left: 150px;
 	padding-top: 5px;
 	text-align: left;
 }
 
 
 #about #skillset{
-	font-size: 4vw;
+	font-size: 45px;
 	text-shadow: none;
 	padding-top: 0px;
 	margin-top: -20px;
@@ -424,23 +424,23 @@ header .container-fluid {
 }
 
 #about .container-fluid .getMore{
-  padding-top: 2vw;
+  padding-top: 25px;
 }
 
 #about .container-fluid .getMore p{
-  font-size: 2.5vw;
+  font-size: 35px;
 }
 
 #about #position{
-  font-size: 2.5vw;
+  font-size: 35px;
 }
 
 #about #intro .dashed li{
-  font-size: 2.2vw;
+  font-size: 28px;
 }
 
 #about .container-fluid .getMore i{
-  font-size:3vw;
+  font-size:35px;
 }
 
 @media(max-width:768px) {
@@ -466,16 +466,16 @@ header .container-fluid {
   #about #skillset{
     padding-top: 30px;
     margin-bottom: 0;
-    font-size: 15vw;
+    font-size: 2.5em;
   }
 
   #about .skills ul li{
     font-size: 3.5em;
-    margin-left: 110px;
+    margin-left: 7em;
   }
 
   #about #intro .dashed li{
-    font-size: 6vw;
+    font-size: 0.6em;
   }
 
   #about #position{
@@ -490,11 +490,11 @@ header .container-fluid {
   }
 
   #about .container-fluid .getMore i{
-  font-size:10vw;
+  font-size:20px;
 }
 
-  #about #more span{
-    font-size: 8vw;
+  #about #more span {
+    font-size: 0.8em;
   }
 
 }
@@ -503,7 +503,7 @@ header .container-fluid {
 	  text-decoration: none;
 	  font-family: 'Titillium Web', sans-serif;
 	  color: #14435D;
-	  font-size: 2vw;
+	  font-size: 2em;
 
     display: inline-block;
     text-decoration: none;
