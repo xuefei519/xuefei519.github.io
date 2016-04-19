@@ -1,14 +1,19 @@
 html, body {
     		height: 100%;
     		margin: 0;
-        overflow-x: hidden;
     	}
+      body{
+        overflow-x: hidden;
+      }
 
 .navbar-header > .name{
 	font-family: 'lobster', sans-serif;
 	font-size: 3.125em;
 	line-height: 30px!important;
 	color:#14435D;
+}
+.navbar .container-fluid{
+  max-width: 1100px;
 }
 
 .navbar-custom ul > li>a{
@@ -58,6 +63,9 @@ html, body {
     transform: translate(0px);
 }
 
+.navbar-custom .container-fluid{
+  text-align: center;
+}
 
 
 .navbar-custom .navbar-nav .active a:before{
@@ -118,7 +126,7 @@ header .container-fluid {
 	background-color: #72B0B4;
 	text-align: center;
 	margin: 0;
-	font-size: 5.8em;
+	font-size: 8em;
 	font-family: 'lobster', sans-serif;
 	min-height: 100%;
   width: auto;
