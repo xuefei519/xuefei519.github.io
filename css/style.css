@@ -371,9 +371,14 @@ header .container-fluid {
 
 }
 
+#about #intro{
+  margin: 0;
+  padding: 0;
+}
+
 #about #intro ul li, #about .interest {
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 20px;
+	font-size: 2vw;
 	list-style-type: none;
 	padding-top:10px;
 }
@@ -401,15 +406,17 @@ header .container-fluid {
 	margin-right: auto;
 }
 
+
+
 #about .skills ul li{
-	margin-left: 50px;
+	margin-left: 12vw;
 	padding-top: 5px;
 	text-align: left;
 }
 
 
 #about #skillset{
-	font-size: 45px;
+	font-size: 4vw;
 	text-shadow: none;
 	padding-top: 0px;
 	margin-top: -20px;
@@ -420,6 +427,17 @@ header .container-fluid {
   font-size: 30px;
 }
 
+#about #position{
+  font-size: 2.8vw;
+}
+
+#about #intro .dashed li{
+  font-size: 2.2vw;
+}
+
+#about .container-fluid .getMore i{
+  font-size:3vw;
+}
 
 @media(max-width:768px) {
   #about container-fluid{
@@ -444,14 +462,16 @@ header .container-fluid {
   #about #skillset{
     padding-top: 30px;
     margin-bottom: 0;
+    font-size: 15vw;
   }
 
   #about .skills ul li{
-    font-size: 3em;
+    font-size: 3.5em;
     margin-left: 110px;
   }
-  #about #intro .dashed{
-    font-size: 0.6em;
+
+  #about #intro .dashed li{
+    font-size: 6vw;
   }
 
   #about #position{
@@ -465,18 +485,22 @@ header .container-fluid {
     margin-right: auto;
   }
 
+  #about .container-fluid .getMore i{
+  font-size:10vw;
+}
+
+  #about #more span{
+    font-size: 8vw;
+  }
+
 }
 
 #about #more{
-	text-decoration: none;
-	font-family: 'Titillium Web', sans-serif;
-	color: #14435D;
-	font-size: 20px;
-}
+	  text-decoration: none;
+	  font-family: 'Titillium Web', sans-serif;
+	  color: #14435D;
+	  font-size: 2vw;
 
-
-#about #more {
-    color: #14435D;
     display: inline-block;
     text-decoration: none;
     overflow: hidden;
@@ -1003,10 +1027,11 @@ textarea:valid~label {
    font-size: 0.8em;
   }
 }
+
 #rate{
   position: fixed;
   bottom: 15px;
-  right: 10px;
+  right: 15px;
   text-align: center;
 
   padding-left: 15px;
@@ -1085,53 +1110,4 @@ textarea:valid~label {
     font-size: 1.8em;
     margin-bottom: 10px;
   }
-}
-
-.expandOpen{
-	animation-name: expandOpen;
-	-webkit-animation-name: expandOpen;
-
-	animation-duration: 1.2s;
-	-webkit-animation-duration: 1.2s;
-
-	animation-timing-function: ease-out;
-	-webkit-animation-timing-function: ease-out;
-
-	visibility: visible !important;
-}
-
-@keyframes expandOpen {
-	0% {
-		transform: scale(1.8);
-	}
-	50% {
-		transform: scale(0.95);
-	}
-	80% {
-		transform: scale(1.05);
-	}
-	90% {
-		transform: scale(0.98);
-	}
-	100% {
-		transform: scale(1);
-	}
-}
-
-@-webkit-keyframes expandOpen {
-	0% {
-		-webkit-transform: scale(1.8);
-	}
-	50% {
-		-webkit-transform: scale(0.95);
-	}
-	80% {
-		-webkit-transform: scale(1.05);
-	}
-	90% {
-		-webkit-transform: scale(0.98);
-	}
-	100% {
-		-webkit-transform: scale(1);
-	}
 }
