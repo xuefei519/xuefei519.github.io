@@ -345,7 +345,7 @@ header .container-fluid {
 		}
 
 #about #montreal{
-	width:20px;
+	width:28px;
 }
 
 
@@ -456,6 +456,10 @@ header .container-fluid {
   #about #skillset ul{
     margin:0;
     padding: 0 0 30px 0;
+  }
+
+  #about #montreal{
+  	width:20px;
   }
 
   #about #intro ul li{
@@ -918,22 +922,29 @@ body .work-modal{
 
 }
 
-.modal .modal-dialog .modal-content .modal-header .modal-title{
+.modal .work-modal .modal-content .modal-header .modal-title{
   text-align: center;
   font-size: 35px;
   font-family: 'lobster', sans-serif;
 }
 
-.modal .modal-dialog .modal-content .modal-header{
+.modal .work-modal .modal-content .modal-header{
   padding-bottom: 0;
 }
-.modal .modal-dialog .modal-content .modal-body{
+.modal .work-modal .modal-content .modal-body{
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 0;
+  padding-bottom: 30px;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.5em;
 }
+.modal .work-modal .modal-content .modal-body .group{
+  font-weight:normal;
+  float:right;
+}
+
+
 
 @media(max-width:768px){
   body .work-modal{
@@ -941,13 +952,17 @@ body .work-modal{
     margin-left: 5%;
     }
 
-  .modal .modal-dialog .modal-content .modal-header .modal-title{
+  .modal .work-modal .modal-content .modal-header .modal-title{
     font-size: 2em;
     }
-  .modal .modal-dialog .modal-content .modal-body{
+  .modal .work-modal .modal-content .modal-body{
     padding-left: 20px;
     padding-right:20px;
     font-size: 1.2em;
+  }
+  .modal .work-modal .modal-content .modal-body .group{
+    font-weight:normal;
+    margin-bottom: 10px;
   }
 
 }
