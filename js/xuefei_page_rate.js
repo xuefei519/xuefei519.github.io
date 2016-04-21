@@ -64,7 +64,7 @@ $(function() {
       $('#rate_success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
           .append("</button>");
       $('#rate_success > .alert-success')
-          .append("<strong><i class='fa fa-smile-o fa-2x'></i> Thank you, your message has been sent. </strong>");
+          .append("<strong><i class='fa fa-smile-o fa-2x'></i> Thank you, your review has been sent. </strong>");
       $('#rate_success > .alert-success')
           .append('</div>');
 
