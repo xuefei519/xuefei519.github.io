@@ -862,6 +862,7 @@ footer{
 hr.hr-style1 {
 	border-top: 1px dashed #14435D;
 	text-align: center;
+  font-size: 30px;
 }
 hr.hr-style1:after {
 	content: '\002605';
@@ -889,7 +890,7 @@ hr.hr-style2:after {
 	padding: 0 10px;
 	background: #E3E3D8;
 	color: #14435D;
-	font-size: 18px;
+
 }
 
 hr.hr-style3 {
@@ -1149,18 +1150,26 @@ textarea:valid~label {
    overflow-y: initial !important;
 
 }
-#rateModal .rate-modal{
+#rateModal .modal-dialog{
   max-height:85%;
   margin-top: 50px;
   margin-bottom:50px;
+
+
+  color:#14435D;
 }
-.modal .rate-modal .modal-content .modal-header{
+#rateModal .modal-dialog .modal-content .modal-header{
   text-align: center;
   font-size: 3em;
   font-family: 'lobster', sans-serif;
   padding-bottom: 0;
 }
-.modal .rate-modal .modal-content .modal-body{
+
+#rateModal .modal-dialog .modal-content{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#rateModal .modal-dialog .modal-content .modal-body{
   padding-top: 0;
   padding-left: 20px;
   overflow-y: auto;
@@ -1168,7 +1177,8 @@ textarea:valid~label {
 }
 
 
-.modal .rate-modal .modal-content .modal-body label{
+
+#rateModal .modal-dialog .modal-content .modal-body label{
   opacity: 1;
 }
 
@@ -1221,4 +1231,16 @@ label.error {
   list-style-type: none;
   font-size: 15px;
   padding: 0;
+}
+
+@media(max-width:768px){
+  #Rateform .control-group .controls .checkbox,
+  #Rateform .control-group .controls .radio{
+    padding-left: 20px;
+  }
+
+  #Rateform .control-group .controls .checkbox input,
+  #Rateform .control-group .controls .radio input{
+    left:10px;
+  }
 }
