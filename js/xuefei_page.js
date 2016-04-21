@@ -31,3 +31,5 @@ var delay=1000; //1 second
 setTimeout(function() {
   $('#xuefei').append('<style>#xuefei{opacity: 1;}</style>');
 }, delay);
+
+$(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );

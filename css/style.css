@@ -879,6 +879,7 @@ hr.hr-style1:after {
 hr.hr-style2 {
 	border-top: 1px dashed #14435D;
 	text-align: center;
+  font-size: 18px;
 }
 hr.hr-style2:after {
 	content: '\002665';
@@ -1073,12 +1074,27 @@ textarea:valid~label {
 
 #close_rate{
   font-size: 1.5em;
+    cursor: pointer;
+    z-index: 2;
+    float:right;
 }
+
+
+#close_rate:hover:after{
+  content: 'Meh \002639';
+  position:absolute;
+  top:-25px;
+  right:10px;
+  color:#007C8F;
+  font-family:'Titillium Web', sans-serif;
+}
+
 
 #opinion{
   font-family: 'lobster', sans-serif;
   font-size: 2em;
   text-shadow: 4px 3px 0px rgba(255,255,255,0), 7px 6px 0px rgba(0,0,0,0.15);
+  margin-top: 15px;
 }
 
 #rate_me{
@@ -1121,10 +1137,88 @@ textarea:valid~label {
   }
   #opinion{
     font-size: 1.6em;
-    margin-top: 15px;
+
   }
   #rate_me{
     font-size: 1.8em;
     margin-bottom: 10px;
   }
+}
+
+#rateModal{
+   overflow-y: initial !important;
+
+}
+#rateModal .rate-modal{
+  max-height:85%;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+.modal .rate-modal .modal-content .modal-header{
+  text-align: center;
+  font-size: 3em;
+  font-family: 'lobster', sans-serif;
+  padding-bottom: 0;
+}
+.modal .rate-modal .modal-content .modal-body{
+  padding-top: 0;
+  padding-left: 20px;
+  overflow-y: auto;
+  height: 350px;
+}
+
+
+.modal .rate-modal .modal-content .modal-body label{
+  opacity: 1;
+}
+
+label.error {
+  display: none;
+}
+
+#Rateform .control-group .controls{
+  padding-bottom: 10px;
+}
+
+#Rateform .control-group .control-label{
+  position:relative;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+#Rateform .control-group .sublabel{
+  margin-left: 15px;
+}
+
+#Rateform .control-group .controls .checkbox input,
+#Rateform .control-group .controls .radio input{
+  position:absolute;
+  box-shadow: none;
+  line-height: normal;
+  height: 1.2em;
+}
+
+#Rateform .control-group .controls .checkbox,
+#Rateform .control-group .controls .radio{
+  position: relative;
+  font-size:0.9em;
+  margin-left: 20px;
+}
+#Rateform .control-group .controls .radio{
+  display:inline-block;
+  margin-left: 35px;
+  height: 0.8em;
+}
+
+#Rateform .control-group .controls textarea{
+  width:90%;
+}
+
+.help-block ul li{
+  font-family: 'Titillium Web', sans-serif;
+  color: red;
+  text-shadow: none;
+  list-style-type: none;
+  font-size: 15px;
+  padding: 0;
 }

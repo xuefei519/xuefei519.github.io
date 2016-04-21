@@ -2,12 +2,14 @@
 
 
 $("#reset").click(function() {
+  
   $("input").val("");
   $("textarea").val("");
   $(".alert-success").hide();
   $('#RequestModal').on('hidden.bs.modal', function () {
  location.reload();
 })
+
 });
 
 $("#close").click(function() {

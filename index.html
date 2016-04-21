@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Xuefei's site</title>
+    <title>Xuefei's page</title>
 
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -463,20 +463,233 @@
         </div>
 
         <div class="modal fade" id="rateModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-          <div class="modal-dialog ">
+          <div class="modal-dialog rate-modal">
             <div class="modal-content">
               <div class="modal-header">
-                <button type="button" id="close" class="close" data-dismiss="modal" >&times;</button>
-                <p class="modal-title">What do you think of my site?</p>
+                <button type="button" id="rateModal_close" class="close" data-dismiss="modal" >&times;</button>
+                <p class="modal-title">How do you like this page?</p>
                 <hr class="hr-style2">
               </div>
-              <div class="modal-body">
-                content to be added
-              </div>
-              </div class="modal-footer">
-              </div>
+              <div class="modal-body" >
+
+                <form id="Rateform">
+
+                  <div class="control-group">
+                    <label class="control-label">1. From where did you hear of this page?</label>
+                      <div class="controls">
+                        <label class="checkbox">
+                          <input
+                          type="checkbox"
+                          name="question1"
+                          value="résumé"
+                          data-validation-minchecked-minchecked="1"
+                          data-validation-minchecked-message="* Please make a choice"
+                          />
+                         From my résumé
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" name="question1" value="social media" /> From social media
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" name="question1" value="friends"/> From friends
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" name="question1" value="search engine"/> From search engine
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" name="question1" value="other"/> Other
+                        </label>
+
+                        <p class="help-block"></p>
+                      </div>
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">2. Which of the following best describes you?</label>
+                        <div class="controls">
+                          <label class="checkbox">
+                            <input
+                            type="checkbox"
+                            name="question2"
+                            value="recruiter"
+                            data-validation-minchecked-minchecked="1"
+                            data-validation-minchecked-message="* Please make a choice"
+                            />
+                           Recruiter
+                          </label>
+                          <label class="checkbox">
+                            <input type="checkbox" name="question2" value="friend"/>a Friend
+                          </label>
+                          <label class="checkbox">
+                            <input type="checkbox" name="question2" value="nobody"/>Nobody
+                          </label>
+                          <label class="checkbox">
+                            <input type="checkbox" name="question2" value="other"/> Other
+                          </label>
+
+                          <p class="help-block"></p>
+                        </div>
+                      </div>
+
+                      3. Please rate the following:
+                      <div class="control-group">
+                        <label class="control-label sublabel">design:</label>
+                          <div class="controls">
+                            <label class="radio">
+                              <input
+                              type="radio"
+                              name="question3-1"
+                              value="5"
+                              data-validation-minchecked-minchecked="1"
+                              data-validation-minchecked-message="* Please make a choice"
+                              />
+                             5
+                            </label>
+                            <label class="radio">
+                              <input type="radio" name="question3-1" value="4"/>4
+                            </label>
+                            <label class="radio">
+                              <input type="radio" name="question3-1" value="3"/>3
+                            </label>
+                            <label class="radio">
+                              <input type="radio" name="question3-1" value="2"/>2
+                            </label>
+                            <label class="radio">
+                              <input type="radio" name="question3-1" value="1"/>1
+                            </label>
+                            <label class="radio">
+                              <input type="radio" name="question3-1" value="0"/>0
+                            </label>
+
+                            <p class="help-block"></p>
+                          </div>
+                        </div>
+
+                        <div class="control-group">
+                          <label class="control-label sublabel">content:</label>
+                            <div class="controls">
+                              <label class="radio">
+                                <input
+                                type="radio"
+                                name="question3-2"
+                                value="5"
+                                data-validation-minchecked-minchecked="1"
+                                data-validation-minchecked-message="* Please make a choice"
+                                />
+                               5
+                              </label>
+                              <label class="radio">
+                                <input type="radio" name="question3-2" value="4"/>4
+                              </label>
+                              <label class="radio">
+                                <input type="radio" name="question3-2" value="3"/>3
+                              </label>
+                              <label class="radio">
+                                <input type="radio" name="question3-2" value="2"/>2
+                              </label>
+                              <label class="radio">
+                                <input type="radio" name="question3-2" value="1"/>1
+                              </label>
+                              <label class="radio">
+                                <input type="radio" name="question3-2" value="0"/>0
+                              </label>
+
+                              <p class="help-block"></p>
+                            </div>
+                          </div>
+
+                          <div class="control-group">
+                            <label class="control-label sublabel">compability:</label>
+                              <div class="controls">
+                                <label class="radio">
+                                  <input
+                                  type="radio"
+                                  name="question3-3"
+                                  value="5"
+                                  data-validation-minchecked-minchecked="1"
+                                  data-validation-minchecked-message="* Please make a choice"
+                                  />
+                                 5
+                                </label>
+                                <label class="radio">
+                                  <input type="radio" name="question3-3" value="4"/>4
+                                </label>
+                                <label class="radio">
+                                  <input type="radio" name="question3-3" value="3"/>3
+                                </label>
+                                <label class="radio">
+                                  <input type="radio" name="question3-3" value="2"/>2
+                                </label>
+                                <label class="radio">
+                                  <input type="radio" name="question3-3" value="1"/>1
+                                </label>
+                                <label class="radio">
+                                  <input type="radio" name="question3-3" value="0"/>0
+                                </label>
+
+                                <p class="help-block"></p>
+                              </div>
+                            </div>
+
+
+                            <div class="control-group">
+                              <label class="control-label sublabel">overall:</label>
+                                <div class="controls">
+                                  <label class="radio" value="5">
+                                    <input
+                                    type="radio"
+                                    name="question3-4"
+                                    data-validation-minchecked-minchecked="1"
+                                    data-validation-minchecked-message="* Please make a choice"
+                                    />
+                                   5
+                                  </label>
+                                  <label class="radio">
+                                    <input type="radio" name="question3-4" value="4"/>4
+                                  </label>
+                                  <label class="radio">
+                                    <input type="radio" name="question3-4" value="3"/>3
+                                  </label>
+                                  <label class="radio">
+                                    <input type="radio" name="question3-4" value="2"/>2
+                                  </label>
+                                  <label class="radio">
+                                    <input type="radio" name="question3-4" value="1"/>1
+                                  </label>
+                                  <label class="radio">
+                                    <input type="radio" name="question3-4" value="0"/>0
+                                  </label>
+
+                                  <p class="help-block"></p>
+                                </div>
+                              </div>
+
+
+                              <div class="control-group">
+                                <label class="control-label">Comments: (optional)</label>
+                                  <div class="controls">
+                                    <textarea rows="5"  type="text" id="comment">
+                                    </textarea>
+                                  </div>
+                                </div>
+
+                  </div>
+
+                    <div class="modal-footer">
+                      <div id="rate_success"></div>
+                      <div class="row">
+                          <div class="form-group col-xs-12">
+                              <button type="submit" class="btn btn-default btn-lg"> <span class="glyphicon glyphicon-send"></span>  Send</button>
+                              <button type="button" id="cancel" class="btn btn-default btn-lg" data-dismiss="modal">Cancel</button>
+
+                            </div>
+                          </div>
+                  </div>
+
+                    </form>
+
             </div>
-        </div>
+          </div>
         </div>
 
 
@@ -489,9 +702,10 @@
           <script src="js/jquery.easing/jquery.easing.1.3.min.js"></script>
           <!-- Contact Form JavaScript -->
           <script src="js/jqBootstrapValidation.js"></script>
-          <script src="js/xuefei_site_contact.js"></script>
+          <script src="js/xuefei_page_contact.js"></script>
+          <script src="js/xuefei_page_rate.js"></script>
           <!-- Custom Theme JavaScript -->
-          <script src="js/xuefei_site.js"></script>
+          <script src="js/xuefei_page.js"></script>
 
 
 
