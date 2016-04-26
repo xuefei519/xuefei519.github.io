@@ -33,17 +33,3 @@ setTimeout(function() {
 }, delay);
 
 $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
-
-
-$(function() {
-  if($("#xuefei").hasClass("hover")){
-    console.log("has class 'hover'");
-    $('body').on('click', '#xuefei', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
-  }
-});
