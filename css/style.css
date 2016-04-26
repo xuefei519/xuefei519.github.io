@@ -299,9 +299,10 @@ header .container-fluid {
 
    #xuefei .tooltip {
      left:0;
-     top:-120%;
+     top:-70%;
      bottom: 80%;
      width: 95%;
+     padding-top: 0;
    }
 
    /*triangle*/
@@ -313,14 +314,14 @@ header .container-fluid {
      border-right: solid transparent 10px;
 }
   #content{
-    margin-top: 5px;
+    margin-top: 0;
     padding-left: 10px;
-
+    font-size: 2em;
   }
 
-  #contact p{
+  #content p{
     margin-left: 15px;
-
+    font-size: 0.8em;
   }
 
 }
