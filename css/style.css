@@ -242,9 +242,9 @@ header .container-fluid {
   content: " ";
   display: block;
   height: 150px;
-  left: -30px;
+  left: -50px;
   position: absolute;
-  width: 100%;
+  width: 120%;
 }
 
 /*triangle*/
