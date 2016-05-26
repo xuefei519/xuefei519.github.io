@@ -779,6 +779,34 @@ form {
     transition: 0.5s;
 }
 
+.demo-pic{
+  width:100%;
+  height:100%;
+  height:auto;
+  margin: 0;
+  display: block;
+}
+
+.link{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  opacity: 0;
+  color:#E3E3D8;
+  background: rgba(20,67,93,.6);
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
+
+  text-decoration: none;
+  padding-top: 50px;
+  text-align: center;
+}
+.link:hover{
+  opacity: 1;
+}
 
 
 @media(max-width:768px){
@@ -813,6 +841,9 @@ form {
       position: relative;
       font-size: 25px;
       white-space: normal;
+    }
+    .link{
+      padding-top: 20px;
     }
 
 
