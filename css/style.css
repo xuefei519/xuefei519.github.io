@@ -1047,6 +1047,10 @@ body .work-modal{
   float:right;
 }
 
+.modal .work-modal .modal-content .modal-body .description{
+  margin-top: 40px;
+}
+
 
 
 @media(max-width:768px){
