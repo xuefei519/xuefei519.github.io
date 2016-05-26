@@ -737,13 +737,12 @@ form {
   opacity:1;
 }
 
-#portfolio .portfolio-item .work-link .work-title{
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 20px;
-  color: #14435D;
-  margin-top: 40px;
-  display: inline-block;
-  white-space: nowrap;
+#portfolio .work-link .work-name{
+  font-size: 30px;
+  color:#14435D
+}
+#portfolio .work-link:hover{
+  text-decoration: none;
 }
 
 #works .container-fluid {
@@ -759,7 +758,11 @@ form {
 	height:100%;
 }
 
-
+@media(max-width:768px) {
+  #portfolio .work-link .work-name{
+    font-size: 20px;
+  }
+}
 #works .container-fluid  p{
 	font-size: 80px;
 	font-family: 'lobster', sans-serif;
@@ -1054,6 +1057,7 @@ body .work-modal{
 
   .modal .work-modal .modal-content .modal-header .modal-title{
     font-size: 2em;
+    margin-top: 20px;
     }
   .modal .work-modal .modal-content .modal-body{
     padding-left: 20px;
