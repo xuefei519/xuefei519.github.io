@@ -689,6 +689,52 @@ form {
     padding: 0;
   }
 }
+.motto{
+  position:relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.motto .backimg{
+  background-image:url('../images/keepLearning.jpg');
+  background-size: cover;
+  background-position: center;
+  height:600px;
+  -webkit-filter: blur(5px);
+  z-index: 0;
+}
+
+
+.motto p{
+  font-family: 'lobster', sans-serif;
+  font-size: 60px;
+  line-height: 600px;
+  color: #CFD1C6;
+  text-shadow: 2px 2px #5A6E79;
+  position:absolute;
+  top:0;
+  z-index: 1;
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(max-width:768px){
+  .motto .backimg{
+    height:350px;
+    background-position: right;
+  }
+  .motto p{
+    font-size: 35px;
+    word-wrap: break-word;
+    line-height: normal;
+    top:40%;
+  }
+}
+
+
 
 #portfolio .container-fluid{
   padding-top: 50px;
