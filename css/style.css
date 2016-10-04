@@ -14,7 +14,7 @@ html, body {
 }
 .navbar .container-fluid{
   max-width: 1100px;
-	height:100vh;
+	height:100%;
 }
 
 .navbar-custom ul > li>a{
@@ -129,7 +129,7 @@ header .container-fluid {
 	margin: 0;
 	font-size: 8em;
 	font-family: 'lobster', sans-serif;
-	min-height: 100%;
+	min-height: 100vh;
   width: auto;
 	height:100%;
 	text-shadow: 2px 2px 4px #000000;
@@ -701,7 +701,7 @@ form {
   background-image:url('../images/keepLearning.jpg');
   background-size: cover;
   background-position: center;
-  height:600px;
+  height:100vh;
   z-index: 0;
 }
 .blur{
