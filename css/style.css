@@ -14,6 +14,7 @@ html, body {
 }
 .navbar .container-fluid{
   max-width: 1100px;
+	height:100vh;
 }
 
 .navbar-custom ul > li>a{
