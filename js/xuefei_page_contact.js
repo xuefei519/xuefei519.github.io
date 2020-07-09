@@ -79,7 +79,7 @@ $(function() {
       $('#success').html("<div class='alert alert-danger'>");
       $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
           .append("</button>");
-      $('#success > .alert-danger').append("<strong><i class='fa fa-frown-o fa-2x'></i>  Sorry " + Name + ", it seems that my mail server is not responding. </strong>");
+      $('#success > .alert-danger').append("<strong><i class='fa fa-frown-o fa-2x'></i>  Sorry " + Name + ", it seems that the mail server is not responding. </strong>");
       $('#success > .alert-danger').append("<br>");
       $('#success > .alert-danger').append("<strong>Please try again later!</strong>");
       $('#success > .alert-danger').append('</div>');
