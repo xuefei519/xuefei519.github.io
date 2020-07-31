@@ -2,9 +2,354 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="255204cb-96cc-4a02-8daf-10282233b2c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/name.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/xuefei.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tools/sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_interactions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gulp-sass/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gulp-sass/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gulp/bin/gulp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gulp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gulp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/jsonp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/nonce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/rquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/xhr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/prop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/DOMEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/access.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/camelCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/isAttached.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/nodeName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/parseHTML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/parseXML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/readyException.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/stripAndCollapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/toType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/var/rsingleTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/addGetHookIf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/adjustCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/finalPropName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/cssExpand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/getStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rboxStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/swap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/acceptData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataPriv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred/exceptionHook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/deprecated/ajax-event-alias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/deprecated/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/dimensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/Tween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/focusin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/trigger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports/amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/buildFragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/wrapMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector-native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector-sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/findFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/dir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/siblings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/arr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/class2type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/documentElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/flat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/fnToString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/getProto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/hasOwn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/indexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/isFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/isWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/pnum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/rcheckableType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/rcssNum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/toString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/jquery/src/wrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/binding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/watcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/coverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/install.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/prepublish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/util/downloadoptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/util/proxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/util/useragent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/node-sass/vendor/win32-x64-72/binding.node" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/sass/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/fei1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/xue3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/xuefei.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome-4.5.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/style/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/style/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/style/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/keepLearning.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mirabella.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/montreal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/page4mirabelle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/xuefei.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/xuefei.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/xuefei.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/xuefei_page_contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/xuefei_page_contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-2.2.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/xuefei_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/xuefei_page_contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/xuefei_page_rate.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +361,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eNKPPa89UjIX1kHLZLY1R1vJlB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -27,6 +376,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\xshi\AppData\Roaming\npm\node_modules\prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xshi\Documents\xuefei519.github.io\style" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +404,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594156585432</updated>
-      <workItem from="1594156586876" duration="1753000" />
+      <workItem from="1594156586876" duration="5024000" />
+      <workItem from="1594661184599" duration="13626000" />
+      <workItem from="1594839132036" duration="20845000" />
     </task>
     <servers />
   </component>
@@ -62,10 +418,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

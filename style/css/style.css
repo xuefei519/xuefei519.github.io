@@ -1,0 +1,83 @@
+html {
+  font-size: 16px !important; }
+
+.content {
+  height: 100vh;
+  position: relative; }
+  .content .main {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .content .bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold; }
+
+.imgContainer img {
+  height: auto;
+  width: 500px;
+  max-width: 70vw; }
+
+#contact {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: #2d6ca2;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.2s 0.45s, height 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.25s, max-width 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.35s, width 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.35s; }
+  #contact .button {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+    cursor: pointer;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px; }
+  #contact #contactModal {
+    width: 300px;
+    transform: translateY(100%);
+    height: 100%;
+    opacity: 0;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s 0.2s; }
+  #contact .card-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 4px solid #2d6ca2;
+    border-radius: 6px;
+    outline: 0; }
+
+#contact.expand {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.17);
+  border-radius: 0;
+  width: 300px;
+  height: max-content;
+  max-width: 300px;
+  padding: 0;
+  transition: all 0.2s, max-width 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.1s, height 0.3s ease 0.25s; }
+  #contact.expand #contactModal {
+    transform: translateY(0px);
+    opacity: 1;
+    transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1) 0.05s, opacity 0s; }
+
+.help-block {
+  color: whitesmoke !important; }
+  .help-block ul {
+    list-style: none;
+    text-align: left; }
+
+.controls input, .controls textarea {
+  width: 80%;
+  font-size: 1.125rem; }
+
+#success {
+  text-align: left; }

@@ -1,0 +1,29 @@
+{
+  "name": "xuefei519.github.io",
+  "version": "1.0.0",
+  "description": "Personal page for Xuefei",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuefei519/xuefei519.github.io.git"
+  },
+  "author": "Xuefei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuefei519/xuefei519.github.io/issues"
+  },
+  "homepage": "https://github.com/xuefei519/xuefei519.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  }
+}
