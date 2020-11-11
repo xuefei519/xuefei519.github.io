@@ -15,10 +15,11 @@ html {
     font-family: "Roboto", sans-serif;
     font-weight: bold; }
 
-.imgContainer img {
+.imgContainer {
   height: auto;
   width: 500px;
-  max-width: 70vw; }
+  max-width: 70vw;
+  margin: auto; }
 
 #contact {
   position: fixed;
@@ -81,3 +82,12 @@ html {
 
 #success {
   text-align: left; }
+
+#name .text {
+  stroke-dasharray: 3098;
+  stroke-dashoffset: 3098;
+  animation: animate 15s linear forwards; }
+
+@keyframes animate {
+  to {
+    stroke-dashoffset: 0; } }
