@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="255204cb-96cc-4a02-8daf-10282233b2c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/name2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xuefei519.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xuefei519.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/name.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/name.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/xuefei.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/xuefei.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/sass/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +63,16 @@
       <workItem from="1594839132036" duration="21131000" />
       <workItem from="1597951109973" duration="700000" />
       <workItem from="1604595094344" duration="16460000" />
-      <workItem from="1605111575129" duration="3375000" />
+      <workItem from="1605111575129" duration="3932000" />
     </task>
+    <task id="LOCAL-00001" summary="svg animation">
+      <created>1605126505650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605126505650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="svg animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="svg animation" />
   </component>
 </project>
