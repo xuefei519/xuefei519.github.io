@@ -18,12 +18,13 @@
   "homepage": "https://github.com/xuefei519/xuefei519.github.io#readme",
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "gulp-cli": "^2.3.0",
     "jquery": "^3.5.1",
-    "sass": "^1.26.10"
+    "sass": "^1.62.0"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0",
-    "node-sass": "^4.14.1"
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^8.0.0"
   }
 }

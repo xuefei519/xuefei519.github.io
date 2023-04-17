@@ -58,7 +58,7 @@ $(function() {
       $("#btnSubmit").attr("disabled", false);
       $('#success').html("<div class='alert alert-success'>");
       $('#success > .alert-success')
-          .append("<strong>Thank you, "+Name+", your message has been sent. </strong>");
+          .append("<p class='submit_msg'>Thank you, "+Name+", your message has been sent. </p>");
       $('#success > .alert-success')
           .append('</div>');
 
@@ -74,10 +74,10 @@ $(function() {
 
       $("#btnSubmit").attr("disabled", true);
       $('#success').html("<div class='alert alert-danger'>");
-      $('#success > .alert-danger').append("<strong><i class='fa fa-frown-o fa-2x'></i>  Sorry " + Name + ", it seems that the mail server is not responding. </strong>");
-      $('#success > .alert-danger').append("<br>");
-      $('#success > .alert-danger').append("<strong>Please try again later!</strong>");
-      $('#success > .alert-danger').append('</div>');
+      $('#success > .alert-danger').append("<div class='submit_msg d-flex'><i class='fa fa-frown-o fa-2x'></i> <div class='ml-3'>Sorry " + Name + ", it seems that the mail server is not responding.<br>Please try again later!</div>  </div>");
+      // $('#success > .alert-danger').append("<p class='submit_msg'>");
+      // $('#success > .alert-danger').append("<strong>Please try again later!</strong>");
+      // $('#success > .alert-danger').append('</div>');
 
     });
 
