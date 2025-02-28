@@ -1,0 +1,33 @@
+{
+  "TXT.NAV.ABOUT": "About",
+  "TXT.NAV.WORK": "Work",
+  "TXT.NAV.CONTACT": "Contact",
+
+  "TXT.ABOUT.DESCRIPTION_TITLE": "Hi, I'm Xuefei~",
+  "TXT.ABOUT.DESCRIPTION_1": "I am a seasoned frontend developer with over seven years of experience specializing in data visualization within a research environment.",
+  "TXT.ABOUT.DESCRIPTION_2": "My expertise lies in transforming complex datasets into intuitive and interactive visual representations that facilitate data-driven decision-making and enhance user engagement.",
+  "TXT.ABOUT.DESCRIPTION_3": " As I look to the future, I am eager to transition into the industry, where I can further develop my skills in data visualization and UI/UX design, creating impactful products that enhance user experiences.",
+
+  "LABEL.YOE": "years of experience in Web development",
+
+
+  "TXT.ABOUT.TITLE": "About",
+
+  "TXT.CONTACT.TITLE": "CONTACT",
+
+  "TXT.CONTACT.NAME": "Your Name",
+  "TXT.CONTACT.LAST_NAME": "Last name *",
+  "TXT.CONTACT.EMAIL": "Email Address",
+  "TXT.CONTACT.MESSAGE": "Message",
+
+  "TXT.BTN.SUBMIT": "SUBMIT",
+
+  "TXT.CONTACT.INVALID_EMAIL": "Please enter a valid email address",
+  "TXT.CONTACT.CLEAR": "Clear form",
+  "TXT.CONTACT.THANK_YOU": "Thank you",
+  "TXT.CONTACT.FORM_SENT": "Your message has been sent.",
+  "TXT.CONTACT.SORRY": "Sorry",
+  "TXT.CONTACT.FORM_NOT_SENT": "Your message failed to send, please contact by ",
+  "TXT.CONTACT.FORM_NOT_SENT2": " instead.",
+  "TXT.CONTACT.BACK_TO_SITE": "Back to site"
+}
