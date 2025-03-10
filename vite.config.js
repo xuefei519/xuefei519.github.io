@@ -26,7 +26,7 @@ export default ({ mode }) =>{
     },
     build: {
       root: 'src',
-      outDir: '../docs',
+      outDir: 'docs',
       emptyOutDir: true,
       commonjsOptions: {
         requireReturnsDefault: true
