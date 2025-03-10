@@ -1,6 +1,12 @@
 //@import "base.scss";
 @import "@/assets/custom-vars.scss";
 
+:root{
+   --footer-height: 0;
+   --header-height:0;
+}
+
+
 body{
   width: 100%;
   min-width: 375px;
@@ -80,10 +86,14 @@ body{
   }
 }
 
-.home_banner{
+.home_banner, #about{
   min-height: 100vh;
+  margin-top: auto;
 }
 
+#contact{
+  min-height: calc(100vh - 1.5rem - var(--footer-height) - var(--header-height));
+}
 
 .badge-combine{
   background: linear-gradient(45deg, $danger 50%, $info 0%);

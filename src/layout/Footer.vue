@@ -1,5 +1,5 @@
 <template>
-<footer class="pt-4 pb-0 px-0 mt-auto">
+<footer class="pt-4 pb-0 px-0 mt-auto" ref="footer">
   <div class="content">
       <div class="container-fluid pb-2">
         <div class="row d-flex align-items-stretch justify-content-center p-3">
@@ -42,6 +42,13 @@ export default {
     getImg(){
       return `./CITF-logo-rev${this.$i18n.locale === 'en' ? '' : '-fr'}.png`;
     }
+  },
+  mounted(){
+    const elementHeight = this.$refs.footer.offsetHeight;
+    if(elementHeight){
+       document.documentElement.style.setProperty('--footer-height', elementHeight+'px');
+    }
+     
   }
 }
 </script>

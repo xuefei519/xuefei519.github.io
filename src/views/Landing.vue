@@ -14,7 +14,7 @@
        <Work></Work>
       </div> -->
 
-      <div class="py-5" id="contact">
+      <div class="pt-5" id="contact">
         <div class="m-auto col-lg-4 col-md-6 col-sm-8 col-xs-10">
           <h1 class="text-uppercase text-center font-weight-bolder py-3">{{ t('TXT.NAV.CONTACT') }}</h1>
           <contact-form></contact-form>

@@ -1,6 +1,6 @@
 <template>
 
-    <b-navbar toggleable="lg" type="light" variant="white" :class="scrolled ? 'm-0 px-5 py-3 header active': 'm-0 px-5 py-3 header'">
+    <b-navbar toggleable="lg" type="light" variant="white" ref="header" :class="scrolled ? 'm-0 px-5 py-3 header active': 'm-0 px-5 py-3 header'">
             <b-navbar-brand :to="{ name: 'home', hash: '#home'}">
 <!--                <img src="/CITF-Databank_Logo_BIL-W-400.png" height="80"  alt="CITF Databank logo"/>-->
 <span>Xuefei Shi</span>
@@ -77,6 +77,12 @@ export default {
   },
   destroyed () {
     window.removeEventListener('scroll', this.handleScroll);
+  },
+  mounted(){
+    const headerHeight = this.$refs.header.$el.offsetHeight;
+    if(headerHeight){
+      document.documentElement.style.setProperty('--header-height', headerHeight+'px');
+    }
   }
 }
 </script>

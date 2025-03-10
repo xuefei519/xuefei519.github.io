@@ -29,5 +29,6 @@
   "TXT.CONTACT.SORRY": "Sorry",
   "TXT.CONTACT.FORM_NOT_SENT": "Your message failed to send, please contact by ",
   "TXT.CONTACT.FORM_NOT_SENT2": " instead.",
-  "TXT.CONTACT.BACK_TO_SITE": "Back to site"
+  "TXT.CONTACT.BACK_TO_SITE": "Back to site",
+  "TXT.CONTACT.FORM_NOT_FILLED": "Please fill out the form"
 }

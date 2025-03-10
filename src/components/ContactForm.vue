@@ -37,7 +37,7 @@
 
 
         <div class="d-flex justify-content-between mt-2">
-          <b-button class="py-3 px-5 rounded-0" type="submit" variant="outline-light" :disabled="!validateForm()">{{$t('TXT.BTN.SUBMIT')}}</b-button>
+          <b-button class="py-3 px-5 rounded-0" type="submit" variant="outline-dark" :disabled="!validateForm()" data-placement="bottom" :title="!validateForm()?$t('TXT.CONTACT.FORM_NOT_FILLED'):''">{{$t('TXT.BTN.SUBMIT')}}</b-button>
           <b-button v-if="formFilled()" class="text-dark_aqua" type="reset" variant="link">{{ $t("TXT.CONTACT.CLEAR") }}</b-button>
         </div>
 
@@ -46,7 +46,7 @@
 <!--        <pre class="m-0">{{ form }}</pre>-->
 <!--      </b-card>-->
 
-      <b-modal ref="result-modal" centered header-border-variant="white" hide-footer>
+      <b-modal ref="result-modal" centered header-border-variant="white" hide-footer v-show="true">
         <div class="d-block text-center mb-4">
           <h3>{{ this.sent ? $t("TXT.CONTACT.THANK_YOU"): $t('TXT.CONTACT.SORRY') }}, {{ this.name }}</h3>
           <template v-if="this.sent">
